@@ -1,0 +1,45 @@
+{
+	"name": "baas-frontend",
+	"version": "0.1.0",
+	"private": true,
+	"dependencies": {
+		"react": "^16.10.1",
+		"react-dom": "^16.10.1",
+		"react-scripts": "3.2.0",
+		"styled-components": "^4.4.0"
+	},
+	"scripts": {
+		"start": "react-scripts start",
+		"build": "react-scripts build",
+		"test": "react-scripts test",
+		"eject": "react-scripts eject"
+	},
+	"eslintConfig": {
+		"extends": "react-app"
+	},
+	"browserslist": {
+		"production": [
+			">0.2%",
+			"not dead",
+			"not op_mini all"
+		],
+		"development": [
+			"last 1 chrome version",
+			"last 1 firefox version",
+			"last 1 safari version"
+		]
+	},
+	"devDependencies": {
+		"@babel/plugin-syntax-object-rest-spread": "^7.2.0",
+		"@types/jest": "24.0.18",
+		"@types/node": "12.7.9",
+		"@types/react": "16.9.4",
+		"@types/react-dom": "16.9.1",
+		"@types/styled-components": "^4.1.19",
+		"babel-plugin-macros": "^2.6.1",
+		"react-hot-loader": "^4.12.15",
+		"tailwind.macro": "^1.0.0-alpha.10",
+		"tailwindcss": "^1.1.2",
+		"typescript": "3.6.3"
+	}
+}
