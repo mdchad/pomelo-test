@@ -2,13 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f59f12bf-1cbb-4f5a-9ba9-5c16b47b9a93" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/cypress/integration/main_spec.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/Main.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Main.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/TransactionCard.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/TransactionCard.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -67,7 +61,7 @@
       <option name="presentableId" value="Default" />
       <updated>1573678105760</updated>
       <workItem from="1573678112262" duration="2371000" />
-      <workItem from="1573728154869" duration="6548000" />
+      <workItem from="1573728154869" duration="6793000" />
     </task>
     <servers />
   </component>

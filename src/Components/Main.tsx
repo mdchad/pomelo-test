@@ -26,6 +26,7 @@ const Main: React.FC = () => {
 			case 'REFUND':
 				state.data.map((transaction: any, i: number) => {
 					if (i % 2 === 0) {
+						// Check for even
 						transaction.state = 'REFUNDED'
 					}
 					return { ...transaction }

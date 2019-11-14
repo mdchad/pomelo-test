@@ -1,6 +1,6 @@
 # Pomelo Technical Test
 
-This is a Pomelo technical test for the full stack position(front end)
+This is a Pomelo Pay technical test for the full stack position(front end)
 
 ## Getting Started
 
