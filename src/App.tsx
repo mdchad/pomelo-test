@@ -1,6 +1,6 @@
 import React from 'react'
 import { createGlobalStyle } from 'styled-components'
-import Landing from './screens/Landing'
+import Main from './Components/Main'
 
 const GlobalStyle = createGlobalStyle`
 	body {
@@ -17,7 +17,7 @@ const App: React.FC = () => {
 	return (
 		<main>
 			<GlobalStyle />
-			<Landing />
+			<Main />
 		</main>
 	)
 }
