@@ -14,6 +14,10 @@ const Pill = styled.span`
 	${tw`inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2`}
 `;
 
+const PillRefunded = styled.span`
+	${tw`inline-block bg-indigo-500 rounded-full px-3 py-1 text-sm font-semibold text-white mr-2`}
+`;
+
 const PillContainer = styled.div`
 	${tw`px-6 py-4`}
 `;
@@ -35,13 +39,12 @@ const Small = styled.small`
 `
 
 const TransactionCard: React.FC<Props> = (props) => {
-	console.log(props)
 	return (
 		<div>
 			{props.data.map(transaction => {
 				const createdAt = new Date(transaction.created)
 				return (
-					<ContainerCard key={transaction.id}>
+					<ContainerCard data-cy='transaction-card' key={transaction.id}>
 						<Wrapper>
 							<Title>{transaction.currency} {transaction.amount}</Title>
 							<Small>{transaction.id}</Small>
@@ -53,7 +56,7 @@ const TransactionCard: React.FC<Props> = (props) => {
 							</Text>
 						</Wrapper>
 						<PillContainer>
-							<Pill>{transaction.state}</Pill>
+							{ transaction.state !== 'REFUNDED' ? <Pill>{transaction.state}</Pill> : <PillRefunded data-cy='refunded-state'>{transaction.state}</PillRefunded> }
 						</PillContainer>
 					</ContainerCard>
 				)

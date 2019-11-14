@@ -13,6 +13,7 @@
 		"start": "react-scripts start",
 		"build": "react-scripts build",
 		"test": "react-scripts test",
+		"cypress:run": "cypress run",
 		"eject": "react-scripts eject"
 	},
 	"eslintConfig": {
@@ -38,6 +39,7 @@
 		"@types/react-dom": "16.9.1",
 		"@types/styled-components": "^4.1.19",
 		"babel-plugin-macros": "^2.6.1",
+		"cypress": "^3.6.1",
 		"react-hot-loader": "^4.12.15",
 		"tailwind.macro": "^1.0.0-alpha.10",
 		"tailwindcss": "^1.1.2",
